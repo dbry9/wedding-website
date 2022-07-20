@@ -1,0 +1,104 @@
+body {
+  text-align: center;
+  color: #E6E6E6;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: #C5A880;
+  font-family: 'roboto', sans-serif;
+}
+
+a:hover {
+  color: #E6E6E6;
+}
+
+p {
+  font-family: 'roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Dancing Script', cursive;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+  color: #C5A880;
+}
+
+
+hr {
+  border-style: dotted none none;
+  border-color: #E6E6E6;
+  border-width: 5px;
+  width: 5%;
+  margin: 100px auto;
+}
+
+.heading-image {
+  filter: brightness(50%);
+}
+
+.header {
+  position: relative;
+  bottom: 200px;
+}
+
+.full-image {
+  width: 100%;
+  height: auto;
+}
+
+.little-girl-image {
+  width: 25%;
+  border-radius: 200px;
+  float: right;
+  margin-left: 30px;
+}
+
+.little-boy-image {
+  width: 25%;
+  border-radius: 200px;
+  float: left;
+  margin-right: 30px;
+  margin-top: 80px
+}
+
+.our-story-container-row-1 {
+  width: 80%;
+  position: relative;
+  margin: 50px auto 200px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.our-story-container-row-2 {
+  width: 80%;
+  position: relative;
+  margin: 200px auto 200px auto;
+  text-align: right;
+  line-height: 2;
+}
+
+.airbnb {
+  filter: brightness(50%);
+  position: relative;
+}
+
+.location-container {
+position: relative;
+}
+
+.location-container-row {
+position: relative;
+bottom: 300px;
+}
+
+.countdown-container {
+  margin: 0 auto 200px auto;
+}
