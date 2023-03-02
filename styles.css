@@ -1,104 +1,164 @@
+/* Built in tags */
 body {
-  text-align: center;
-  color: #E6E6E6;
-  background-color: black;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Dancing Script', cursive;
+    color: #c5a990;
 }
 
 a {
-  text-decoration: none;
-  color: #C5A880;
-  font-family: 'roboto', sans-serif;
+    color: white;
+    font-size: 1.250em;
+    text-shadow: 1px 1px black;
+    
 }
 
 a:hover {
-  color: #E6E6E6;
+    color: #c5a990;
 }
 
 p {
-  font-family: 'roboto', sans-serif;
+    font-size: 1.25em;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Dancing Script', cursive;
+h2, h3{font-size: 2.5em;}
+
+
+
+/* Section Header  */
+
+#header-container {
+    height: auto;
+}
+.engagement-image {
+    width: 100%;
 }
 
-h1 {
-  font-size: 3.5rem;
+nav {
+    width: 75%;
+    position: relative;
+    bottom: 150px;
+    
 }
 
-h2 {
-  font-size: 3.5rem;
-  color: #C5A880;
+.header-title {
+    position: relative;
+    left: 20px;
+    font-size: 3em;
+    text-shadow: 1px 1px black;
+   
+    
 }
 
-
-hr {
-  border-style: dotted none none;
-  border-color: #E6E6E6;
-  border-width: 5px;
-  width: 5%;
-  margin: 100px auto;
+.menu-link {
+    display: inline;
+    padding: 5px 10px;
 }
 
-.heading-image {
-  filter: brightness(50%);
+/* Section Our Story  */
+.little-nati-image {
+    width: 25%;
+    border-radius: 50px;
+    float: right;
+    margin-left: 30px;
 }
 
-.header {
-  position: relative;
-  bottom: 200px;
-}
-
-.full-image {
-  width: 100%;
-  height: auto;
-}
-
-.little-girl-image {
-  width: 25%;
-  border-radius: 200px;
-  float: right;
-  margin-left: 30px;
-}
-
-.little-boy-image {
-  width: 25%;
-  border-radius: 200px;
-  float: left;
-  margin-right: 30px;
-  margin-top: 80px
+.little-bry-image {
+    width: 25%;
+    border-radius: 50px;
+    float: left;
+    margin-right: 30px;
+    
 }
 
 .our-story-container-row-1 {
-  width: 80%;
-  position: relative;
-  margin: 50px auto 200px auto;
-  text-align: left;
-  line-height: 2;
+    width: 75%;
+    margin: 100px auto 250px auto;
+    text-align: left;
 }
-
 .our-story-container-row-2 {
-  width: 80%;
-  position: relative;
-  margin: 200px auto 200px auto;
-  text-align: right;
-  line-height: 2;
+    width: 75%;
+    margin: 100px auto 250px auto;
+    text-align: left;
 }
 
-.airbnb {
-  filter: brightness(50%);
-  position: relative;
+.our-story-container-row-3 {
+    margin: 100px auto 250px auto;
+    width: 75%;
 }
 
-.location-container {
-position: relative;
+.proposal-video {
+    width: 100%;
+    
 }
 
-.location-container-row {
-position: relative;
-bottom: 300px;
+/* Section Reception  */
+.venue-image {
+    width: 100%;
 }
 
-.countdown-container {
-  margin: 0 auto 200px auto;
+.venue-name {
+    position: relative;
+    bottom: 100px;
+    background-color: #c5a990;
+    width: 50%;
+    margin: 0 auto 0 auto;
+    color: white;
+    font-size: 2em;
+}
+
+
+/* Section Countdown  */
+#countdown-container {
+    margin: 200px auto 200px auto;
+    width: 75%;
+}
+
+#demo {
+    font-size: 2em;
+}
+
+
+/* Section Slideshow */
+.carousel-inner {
+    margin: 100px auto 100px auto;
+    height: 500px;
+    width: 75%;
+}
+
+
+/* Section RSVP */
+#reservation-container {
+    margin: 100px auto 100px auto;
+    width: 75%;
+}
+
+.btn {
+    margin-top: 30px;
+    background-color: #c5a990 !important;
+    border-color: #c5a990 !important;
+}
+
+/* Section Footer  */
+.bottom-container {
+    margin: 100px auto 0 auto;
+    width: 75%;
+}
+
+
+/* This is to try and fade in sections */
+.fade-in {
+    opacity: 0.00;
+    transition: .5s all ease-in-out;
+    -moz-transition: .5s all ease-in-out;
+    -webkit-transition: .5s all ease-in-out;
+}
+
+.fade-in.active {
+    opacity: 1.00;
 }
