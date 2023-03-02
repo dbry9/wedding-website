@@ -1,79 +1,223 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
 
-<head>
-  <meta charset="utf-8">
-  <title>Bryan & Nathalie</title>
-  <!-- CSS only -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles.css">
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
-</head>
+    <head>
 
-<body>
+        <meta charset="utf-8" />
+        <meta name="author" content="Bryan Diaz" />
+        <meta name="description" content="This website is a website completely created for the ability in order to provide information a young couple's wedding." />
+        <title>Nathalie & Bryan's Wedding</title>
 
-  <div class="top-container">
-    <img class="full-image heading-image" src="engagement.jpeg" alt="Picture of couple.">
-    <div class="header">
-      <h1>Bryan & Nathalie</h1>
-      <nav>
-        <a class="header-navigation" href="#">Our Story</a>
-        <a class="header-navigation" href="#">Reception</a>
-        <a class="header-navigation" href="#">Countdown</a>
-      </nav>
-    </div>
-  </div>
+        <link rel="icon" href="favicon.ico">
 
-  <div class="our-story-container">
-    <div class="our-story-container-row-1">
-      <img class="little-girl-image" src="little-girl.jpeg" alt="Image of a little girl.">
-      <h2>Her Story</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
+        <!-- to create responsive website  -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <div class="our-story-container-row-2">
-      <img class="little-boy-image" src="little-boy.jpeg" alt="Image of a little boy.">
-      <h2>His Story</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-  </div>
+        <!-- Link to the google fonts  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap" rel="stylesheet">
+
+        <!-- Link for the styles and bootstrap  -->
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- Jquery CDN -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    </head>
+
+    <body>
+
+        <!-- This section is the header and it consits of a bacground image a main page tittle and a the menu  -->
+        <div id="header-container">
+
+            <img class="engagement-image" src="engagement-image.jpg" alt="Engagemnt Picture" />
+            <nav>
+                <h1 class="header-title">Nathalie & Bryan</h1>
+                <ul>
+                    <li class="menu-link"><a href="#our-story-container">Our Story</a></li>
+                    <li class="menu-link"><a href="#reception-container">Reception</a></li>
+                    <li class="menu-link"><a href="#countdown-container">Countdown</a></li>
+                    <li class="menu-link"><a href="#slideshow-container">Q&A</a></li>
+                    <li class="menu-link"><a href="#reservation-container">RSVP</a></li>    
+                </ul>
+            </nav>
+
+        </div>
+
+        <!-- Tis section is to put the our story section and how she said yes  -->
+        <div id="our-story-container">
+
+            <div class="our-story-container-row-1 fade-in">
+                <img class="little-nati-image" src="little-nati-image.png" alt="Image of a Nati as a little girl.">
+                <h2>Her Story</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis aute
+                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                    sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+
+            <div class="our-story-container-row-2 fade-in">
+                <img class="little-bry-image" src="little-bry-image.jpeg" alt="Image of bryan as a little boy.">
+                <h2>His Story</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis aute
+                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                    sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+
+            <div class="our-story-container-row-3 fade-in">
+                <h2>How Did She Say Yes?</h2>
+                <video class="proposal-video" controls>
+                    <source src="proposal.mp4" type="video/mp4">
+                    Your browser does not support HTML video.
+                </video>
+                <p>If video does not work, try this <a href="https://youtu.be/TDzB08CtQdc"><b>link</b></a>.</p>
+
+        </div>
 
 
-  <div class="location-container">
-    <img class="full-image airbnb" src="Gran Rosharon B&W.png" alt="Image of Grand Rosharon B&W">
-    <div class="location-container-row">
-      <h2>Ceremony & Reception</h2>
-      <h3>February 3, 2023</h3>
-      <h3>@ 5pm</h3>
-      <h2>Grand Rosharon Estate</h2>
-      <h3>123 Adress Houston Tx 77038</h3>
-    </div>
-  </div>
+        
+        <!-- This section is for the reception and will consist of a background image of the venue and an the name of the venue  -->
+        <div id="reception-container">
+            <img class="venue-image" src="venue-image.jpg" alt="Image of the venue">
+            <h4 class="venue-name">The Springs Event Venue At Cypress</h4>
+                
+        </div>
+
+        <!-- This section is so that people can see how long left for the wedding  -->
+        <div id="countdown-container">
+            <h2>Save The Date</h2>
+            <h4>11-26-23</h4>
+            <p id="demo"></p>
+            <h2>Until Wedding Day</h2>
+        </div>
+
+        <!-- This section is for the slideshow  -->
+        <div id="slideshow-container" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+
+                    <h3>Are children allowed?</h3>
+                    <p>Although we love your little ones, this is an ADULT ONLY environment event. We highly encourage
+                        you to enjoy this night as a date night. Therefoere, NO children will be allowed with the exception of children who
+                        will
+                        be participating in the wedding.</p>
+                    
+                    <h3>Puedo traer mis niños?</h3>
+                    <p>Aunque amamos a sus pequeños, este es un evento ambiental SOLO PARA ADULTOS. Recomendamos encarecidamente disfrute de
+                        esta noche como una noche de cita, por lo que NO se permitirán niños a
+                        excepción de los niños que participarán en la boda.</p>
+                </div>
+
+                <div class="carousel-item">
+
+                    <h3>Dress Code</h3>
+                    <p>We would love to see our family and friends get dressed up with us! We are requesting
+                        a semi-formal dress code for our wedding. Please NO white clothing and NO jeans.</p>
+                    
+                    <h3>Vestimenta</h3>
+                    <p>¡Nos encantaría ver a nuestra familia y amigos vestirse bien con nosotros! Estamos solicitando
+                        un código de vestimenta semi-formal para nuestra boda. Por favor NO ropa blanca y NO pantalones jeans.</p>
+
+                </div>
+
+                <div class="carousel-item">
+
+                    <h3>What happens after the wedding ceremony?</h3>
+                    <p>After the wedding ceremony, the bridal party will be taking pictures for about an hour. Guests will be
+                        directed to the area near the reception for cocktail hour, where they will be served beverages and guests
+                        can enjoy entenrtainment.</p>
+                    
+                    <h3>Que va a pasar depues de la ceremonia?</h3>
+                    <p>Después de la ceremonia de la boda, los novios tomarán fotografías durante aproximadamente una hora. Los invitados
+                        serán
+                        dirigidos al área cercana de la recepción para la hora del cóctel, donde se les servirán las bebidas y los invitados
+                        pueden disfrutar del entretenimiento.</p>
+
+                </div>
+
+                <div class="carousel-item">
+
+                    <h3>Can I bring a date?</h3>
+                    <p>Your invitation will specify how many seats are reserved in your honor.</p>
+                    
+                    <h3>Puedo traer un/a acompañante?</h3>
+                    <p>Su invitación especificará cuántos asientos están reservados en su honor.</p>
+
+                </div>
+
+                <div class="carousel-item">
+
+                    <h3>By when do I RSVP?</h3>
+                    <p>Please RSVP by May 31, 2023 by clicking the RSVP button below.</p>
+                    
+                    <h3>Para cuando tengo que reservar mi asistencia?</h3>
+                    <p>Confirme su asistencia antes del 31 de mayo de 2023 haciendo clic en el botón RSVP a continuación.</p>
+
+                </div>
 
 
+            </div>
 
-<div class="countdown-container">
-  <h2>Save The Date</h2>
-  <h4>2-3-23</h4>
-  <h3 id="demo"></h3>
-  <h5>days hours minutes seconds</h5>
-  <h2>Until Wedding Day</h2>
-</div>
+            <a class="carousel-control-prev" href="#slideshow-container" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#slideshow-container" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
 
+        </div>
 
-<div class="bottom-container">
-  <p>Copyright Bryan Diaz</p>
-</div>
+      <!-- This section is simply so that people can go ahead and rsvp on a buttom that will take them to the google forms  --> 
+        <div id="reservation-container">
 
+            <h2>To RSVP please click the button below.</h2>
+            <h2>Para reservar su lugar por favor haga click en el boton de abajo.</h2>
 
-  <!-- JavaScript Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-  <script src="index.js" charset="utf-8"></script>
-</body>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeKUyKtRTOceE79WEfUOGniZoz0CCEuWzwv_Cuv2e3CXXKwHw/viewform?usp=pp_url" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">RSVP</a>
+
+        </div> 
+
+        
+        <!-- This section of the website will go ahead and just say that I built the website  -->
+        <div class="bottom-container">
+
+            <p>Created by Bryan Diaz</p>
+
+        </div>
+        
+        <!-- This is my js file  -->
+        <script src="main.js"></script>
+
+        <!-- Script to run the fade in  -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+        <!-- Bootstrap needs some js files to run some components  -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+
+    </body>
 
 </html>
