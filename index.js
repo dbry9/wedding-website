@@ -40,3 +40,14 @@ $(document).ready(function () {
         }
     });
 });
+
+
+// this code is for the top navigation respoinsive 
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
