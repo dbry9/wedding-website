@@ -183,11 +183,11 @@ nav {
 .venue-name {
     position: relative;
     bottom: 100px;
-    background-color: #c5a990;
-    width: 50%;
+    width: 75%;
     margin: 0 auto 0 auto;
     color: white;
     font-size: 2em;
+    text-shadow: 1px 1px black;
 }
 
 
